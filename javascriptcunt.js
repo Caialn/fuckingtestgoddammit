@@ -17,7 +17,7 @@ $(document).ready(function(){
 });
 
 function songstart() {
-var harmonia = document.getElementById("tune").autoplay;
+var harmonia = document.getElementById("tune");
     if (harmonia.paused) {
         harmonia.play();
     } else { 

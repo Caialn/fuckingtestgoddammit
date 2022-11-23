@@ -18,10 +18,10 @@ $(document).ready(function(){
 
 function songstart() {
 var harmonia = document.getElementById("tune");
+harmonia.autoplay = true;
+harmonia.load();
     if (harmonia.paused) {
         harmonia.play();
-    } else { 
-        harmonia.pause();
     }
 }
 
